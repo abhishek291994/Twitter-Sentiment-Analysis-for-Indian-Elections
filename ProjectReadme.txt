@@ -7,8 +7,8 @@ The main folder contains 5 ipython notebooks.
 6. Bidirectional RNN
 7. Tweet_prediction
 
-The data folder contains all the data files(Election.csv is the final dataset that was used for the analysis)
-The saved model folder contains the models weights for Glove model
+The data.7z contains all the data files(Election.csv is the final dataset that was used for the analysis)
+The SavedModel.7z contains the models weights for Glove model
 
 Contributions:
 1. Generated the tweet datasets, combined data from different months.
@@ -29,4 +29,4 @@ References:
 
 
 Liscence:
-MIT License https://opensource.org/licenses/MIT
+MIT License https://github.com/abhishek291994/Twitter-Sentiment-Analysis-for-Indian-Elections/blob/master/Liscence.txt
