@@ -1,4 +1,4 @@
-The main folder contains 5 ipython notebooks.
+The repository contains 5 ipython notebooks.
 1. portfolio notebook gives the over view of the project.
 2. Election_datascapre (code for fetching tweets using the twitter api tweepy)
 3. Data_Labeling (code for labeling tweets as positive or negative based on the sentiment score. Resampling procedure for the data)
