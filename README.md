@@ -21,11 +21,11 @@ Contributions:
 References:
 
 1.http://docs.tweepy.org/en/v3.5.0/ <br>
-2.https://towardsdatascience.com/another-twitter-sentiment-analysis-bb5b01ebad90
-3.https://www.analyticsvidhya.com/blog/2015/06/quick-guide-text-data-cleaning-python/
-4.https://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset/
-5.https://www.datacamp.com/community/tutorials/wordcloud-python
-6.https://github.com/stanfordnlp/GloVe
+2.https://towardsdatascience.com/another-twitter-sentiment-analysis-bb5b01ebad90 <br>
+3.https://www.analyticsvidhya.com/blog/2015/06/quick-guide-text-data-cleaning-python/ <br>
+4.https://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset/ <br>
+5.https://www.datacamp.com/community/tutorials/wordcloud-python <br>
+6.https://github.com/stanfordnlp/GloVe <br>
 
 
 Liscence:
