@@ -1,4 +1,4 @@
-The repository contains 5 ipython notebooks.
+The repository contains 5 ipython notebooks. The steps involved in the implementation of this project are as follows:<br>
 1. portfolio notebook gives the over view of the project.
 2. Election_datascapre (code for fetching tweets using the twitter api tweepy)
 3. Data_Labeling (code for labeling tweets as positive or negative based on the sentiment score. Resampling procedure for the data)
@@ -7,10 +7,10 @@ The repository contains 5 ipython notebooks.
 6. Bidirectional RNN
 7. Tweet_prediction
 
-The data.7z contains all the data files(Election.csv is the final dataset that was used for the analysis)
+The data.7z contains all the data files(Election.csv is the final dataset that was used for the analysis)<br>
 The SavedModel.7z contains the models weights for Glove model
 
-Contributions:
+<b>Contributions</b>:
 1. Generated the tweet datasets, combined data from different months.
 2. Cleaned the tweets, labeled and resampled the dataset.
 3. Performed exploratory data analysis
@@ -18,7 +18,7 @@ Contributions:
 
 
 
-References:
+<b>References</b>:
 
 1.http://docs.tweepy.org/en/v3.5.0/ <br>
 2.https://towardsdatascience.com/another-twitter-sentiment-analysis-bb5b01ebad90 <br>
