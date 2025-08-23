@@ -1,32 +1,42 @@
-The repository contains 5 ipython notebooks. The steps involved in the implementation of this project are as follows:<br>
-1. portfolio notebook gives the over view of the project.
-2. Election_datascapre (code for fetching tweets using the twitter api tweepy)
-3. Data_Labeling (code for labeling tweets as positive or negative based on the sentiment score. Resampling procedure for the data)
-4. Exploratory Data Analysis
-5. Glove model 
-6. Bidirectional RNN
-7. Tweet_prediction
+# Twitter Sentiment Analysis for Indian Elections
 
-The data.7z contains all the data files(Election.csv is the final dataset that was used for the analysis)<br>
-The SavedModel.7z contains the models weights for Glove model
+This project focuses on analyzing tweets related to the Indian Elections using NLP techniques. It involves data collection, preprocessing, sentiment labeling, exploratory analysis, word embeddings, and deep learning models for sentiment prediction.
 
-<b>Contributions</b>:
-1. Generated the tweet datasets, combined data from different months.
-2. Cleaned the tweets, labeled and resampled the dataset.
-3. Performed exploratory data analysis
-4. Created word embeddings using Glove. Built a model on top of the embeddings. Fine tuned the model by varing the nodes and architecture of the model. 
+## Project Structure
 
+The repository contains five Jupyter notebooks covering the end-to-end workflow:
 
+1. **Portfolio Notebook** – Overview of the project.
+2. **Election\_Datascrape** – Fetching tweets using the Twitter API (`tweepy`).
+3. **Data\_Labeling** – Cleaning tweets, labeling sentiment (positive/negative), and resampling the dataset.
+4. **Exploratory Data Analysis** – Visualizing and understanding dataset trends.
+5. **Glove & Bidirectional RNN** – Creating word embeddings with GloVe, building and fine-tuning a BiRNN model.
+6. **Tweet\_Prediction** – Making predictions using the trained model.
 
-<b>References</b>:
+### Data & Models
 
-1.http://docs.tweepy.org/en/v3.5.0/ <br>
-2.https://towardsdatascience.com/another-twitter-sentiment-analysis-bb5b01ebad90 <br>
-3.https://www.analyticsvidhya.com/blog/2015/06/quick-guide-text-data-cleaning-python/ <br>
-4.https://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset/ <br>
-5.https://www.datacamp.com/community/tutorials/wordcloud-python <br>
-6.https://github.com/stanfordnlp/GloVe <br>
+* **data.7z** – Contains raw and processed datasets (`Election.csv` is the final dataset used).
+* **SavedModel.7z** – Contains the trained GloVe model weights.
 
+## Contributions
 
-Liscence:
-MIT License https://github.com/abhishek291994/Twitter-Sentiment-Analysis-for-Indian-Elections/blob/master/Liscence.txt
+* Generated and combined tweet datasets across different months.
+* Cleaned, labeled, and resampled the dataset.
+* Conducted exploratory data analysis (EDA).
+* Created GloVe word embeddings and built a Bidirectional RNN.
+* Fine-tuned the model architecture and hyperparameters for improved performance.
+
+## References
+
+* [Tweepy Documentation](http://docs.tweepy.org/en/v3.5.0/)
+* [Another Twitter Sentiment Analysis](https://towardsdatascience.com/another-twitter-sentiment-analysis-bb5b01ebad90)
+* [Text Data Cleaning in Python](https://www.analyticsvidhya.com/blog/2015/06/quick-guide-text-data-cleaning-python/)
+* [Dealing with Imbalanced Classes](https://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset/)
+* [Wordcloud in Python](https://www.datacamp.com/community/tutorials/wordcloud-python)
+* [Stanford GloVe](https://github.com/stanfordnlp/GloVe)
+
+## License
+
+[MIT License](https://github.com/abhishek291994/Twitter-Sentiment-Analysis-for-Indian-Elections/blob/master/Liscence.txt)
+
+---
